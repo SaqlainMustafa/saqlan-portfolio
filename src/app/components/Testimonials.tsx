@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function Testimonials() {
   const testimonials = [
     {
@@ -71,9 +73,11 @@ export default function Testimonials() {
           {testimonials.map((testimonial, index) => (
             <div key={index} className="bg-[#2b4040] rounded-lg p-8 hover:shadow-lg transition duration-300">
               <div className="flex items-center mb-6">
-                <img
+                <Image
                   src={testimonial.avatar}
                   alt={testimonial.name}
+                  width={48}
+                  height={48}
                   className="w-12 h-12 rounded-full object-cover mr-4"
                 />
                 <div>
@@ -87,7 +91,7 @@ export default function Testimonials() {
               </div>
               
               <blockquote className="text-gray-300 text-sm leading-relaxed italic">
-                "{testimonial.content}"
+                &ldquo;{testimonial.content}&rdquo;
               </blockquote>
             </div>
           ))}

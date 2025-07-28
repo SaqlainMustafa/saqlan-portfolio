@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function Projects() {
   const projects = [
     {
@@ -58,9 +60,11 @@ export default function Projects() {
           {projects.map((project, index) => (
             <div key={index} className="bg-[#2b4040] rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 group transform hover:-translate-y-2 hover:scale-105">
               <div className="relative h-48 overflow-hidden">
-                <img 
+                <Image 
                   src={project.image} 
                   alt={project.title}
+                  width={400}
+                  height={300}
                   className="w-full h-full object-cover group-hover:scale-110 transition duration-700 ease-out"
                 />
                 <div className="absolute bg-black bg-opacity-40 group-hover:bg-opacity-10 transition duration-500"></div>
