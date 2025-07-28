@@ -22,14 +22,7 @@ export default function Projects() {
       technologies: ["Liquid", "Shopify Subscriptions", "Webhooks", "REST API"],
       image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=300&fit=crop",
       link: "https://intl.jacksonguitars.com/"
-    },
-    {
-      title: "Studio Subscriptions",
-      description: "Shopify site for studio subscriptions. Built dynamic sections using Liquid & Schema from Figma.",
-      technologies: ["Shopify Admin API", "Node.js", "React", "PostgreSQL"],
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop",
-      link: "#"
-    },
+    }
     // {
     //   title: "Multi-language Shopify Store",
     //   description: "International Shopify store with multi-language support, currency conversion, and region-specific product catalogs. Supports 5 languages and 8 currencies.",

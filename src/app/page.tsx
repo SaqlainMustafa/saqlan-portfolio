@@ -56,8 +56,8 @@ export default function Home() {
             <div className="@container">
               <div className="@[480px]:p-4">
                 <div
-                  className="flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-xl items-start justify-end px-4 pb-10 @[480px]:px-10"
-                  style={{backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuAobdrjq42lZBq5IpU6A6CpotAyerum5J_EBTfeBLw-M27KeYs8JqT0LfYrrorYJKwmMwseTQvkncZPcDXJk9B07-7cV3pyQcFYFp-kmQSNPCTLRE1r1pPRl2z_0D-qh5jzdW62ll5zyhYQXckQ-05SeZ0S1IBaFR5w_w2VGglRBzLzxPxk5VmsNoPHJhpSH4mGuwsYWgMLyZAkaQyL8io5QtSAU-py7wNDdwalmH9rIACGai1hnQJ6LmOjjlTK4H0PaDzOMwK9ggo")'}}
+                  className="flex min-h-[180px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[180px]:rounded-xl items-start justify-end px-4 pb-10 @[480px]:px-10"
+          
                 >
                   <div className="flex flex-col gap-2 text-left">
                     <h1 className="text-white text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em]">
