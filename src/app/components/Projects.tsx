@@ -4,39 +4,41 @@ export default function Projects() {
   const projects = [
     {
       title: "Silent Moment Massage SPA",
-      description: " Fully responsive design from XD/Figma. Integrated Mindbody booking. Used custom schema, metafields, and mobile-first layout strategy.",
+      description: " Fully responsive design from Figma. Integrated Mindbody booking. Used custom schema, metafields, and mobile-first layout strategy.",
       technologies: ["Liquid", "Shopify API", "JavaScript", "CSS3", "Responsive Design"],
-      image: "https://lh3.googleusercontent.com/aida-public/AB6AXuD2e3mYO1SjC8DxrJ2L9zGHU-nc5BgieNmGVfwAP3zTMLz2lXsx2Lm5YDHP5yFM8XvHAKAeSYI_z4EcX0Pk4OCYEdqYMxUFueEOfaznmg-ZprSEMJsnnZN9SyDd5u53dS8rj1B6lJDJGWURvfhOyuNQiAxHfsKf6JEKdJvjW9RvGeEHjUQht_0B0-U2ZTy6trv0CpA3irfX3Unupd8FBDWc49KPz-vbHkxVQqKhswbbzcPs0B9vqzUqAF2vSmdjnZzdXsl5P3W8NOc",
-      link: "https://silentmomentspa.com/"
+      image: "/images/silent.png",
+    },
+
+     {
+      title: "G Form",
+      description: "Client provided an existing site and a Figma design. We rebuilt the store from scratch using the Dawn theme, implementing custom product templates and modular sections. The site was made fully responsive and optimized for performance.",
+      technologies: ["Liquid", "Javascript", "Bootstrap", "Klaviyo", "CSS3", "REST API"],
+      image: "/images/g-from.png",
+      link: "https://g-form.com/"
     },
     {
       title: "Bata Shoes",
       description: "Transformed Figma into a React + Polaris-based Shopify theme. Collaborated on UX improvements, page speed, and admin flexibility.",
-      technologies: ["Shopify Storefront API", "Next.js", "GraphQL", "Tailwind CSS"],
-      image: "https://lh3.googleusercontent.com/aida-public/AB6AXuDgs98CRgZub3yjN7F4s1xhNaUq2oBjUn2FNEwEeI9nJB8KlyXo1YanaoxLhE4x9RljjFPZRIjP3uStb_gCz-7jwelJDwZ98JAiRC22SPi1qp7HNOhg27l5Nq6EaLRXSYM_h1PBp4BhmvcboPcXX81ZNVkHxBhOlw7TgQn-kGHEZnOl6Esa1XfWtq51GE4HQxktTUP7fonbTIFFUh2bvZIC8YCWAPvXCj-x4t6JYmNiKEUqjTvlsifKUSDsx5MeJkWvEY0Roa-XSmw",
+      technologies: ["Shopify Storefront API",  "GraphQL", "Tailwind CSS"],
+      image: "/images/bata.png",
       link: "https://www.bata.com.pk/"
     },
     {
       title: "Jackson Guitars",
       description: "Built custom product templates and modular sections. Used metafields for product-based content control. Fully responsive and performance-optimized.",
       technologies: ["Liquid", "Shopify Subscriptions", "Webhooks", "REST API"],
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=300&fit=crop",
+      // image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=300&fit=crop",
+      image: "/images/jackson.png",
       link: "https://intl.jacksonguitars.com/"
+    },
+
+    {
+      title: "Custom Shopify Theme - Dawn Enhanced",
+      description: "Enhanced Dawn theme with custom sections, advanced product filtering, mega menu, and performance optimizations. Achieved 95+ Lighthouse scores.",
+      technologies: ["Dawn Theme", "Liquid", "Shopify CLI", "Performance Optimization"],
+      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop",
+      link: "#"
     }
-    // {
-    //   title: "Multi-language Shopify Store",
-    //   description: "International Shopify store with multi-language support, currency conversion, and region-specific product catalogs. Supports 5 languages and 8 currencies.",
-    //   technologies: ["Shopify Markets", "Liquid", "JavaScript", "i18n"],
-    //   image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=300&fit=crop",
-    //   link: "#"
-    // },
-    // {
-    //   title: "Custom Shopify Theme - Dawn Enhanced",
-    //   description: "Enhanced Dawn theme with custom sections, advanced product filtering, mega menu, and performance optimizations. Achieved 95+ Lighthouse scores.",
-    //   technologies: ["Dawn Theme", "Liquid", "Shopify CLI", "Performance Optimization"],
-    //   image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop",
-    //   link: "#"
-    // }
   ];
 
   return (

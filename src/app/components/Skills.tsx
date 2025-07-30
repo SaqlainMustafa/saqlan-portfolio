@@ -5,9 +5,8 @@ export default function Skills() {
     { name: "JavaScript", icon: "AngularLogo" },
     { name: "SCSS", icon: "CodepenLogo" },
     { name: "Bootstrap", icon: "AngularLogo" },
-    { name: "Tailwind", icon: "CodepenLogo" },
-    { name: "BEM", icon: "TextB" },
-    { name: "LESS", icon: "Minus" },
+     { name: "CRO", icon: "Cards" },
+    { name: "Speed Optimization", icon: "Cards" },
     { name: "Responsive Design", icon: "Devices" },
     { name: "ADA Compliance", icon: "Wheelchair" },
     { name: "Liquid templating", icon: "TextAlignLeft" },
@@ -16,14 +15,19 @@ export default function Skills() {
     { name: "Shopify Admin", icon: "AmazonLogo" },
     { name: "Metaobjects", icon: "MetaLogo" },
     { name: "Metafields", icon: "VirtualReality" },
+    { name: "BEM", icon: "TextB" },
+    { name: "LESS", icon: "Minus" },
+    { name: "Tailwind", icon: "CodepenLogo" },
     { name: "Shopify ThemeKit", icon: "PaintRoller" },
-    { name: "Dawn Theme", icon: "Sun" },
+    { name: "Dawn Theme customization", icon: "Sun" },
     { name: "Storefront API", icon: "Storefront" },
     { name: "REST API", icon: "WebhooksLogo" },
     { name: "GraphQL Admin API", icon: "WebhooksLogo" },
     { name: "Shopify Polaris", icon: "ChartPolar" },
     { name: "Shopify CLI", icon: "Terminal" },
-    { name: "Shogun Page Builder", icon: "Cards" }
+    { name: "Shogun Page Builder", icon: "Cards" },
+    { name: "Graph Ql", icon: "Cards" }
+   
   ];
 
   const getIcon = (iconName: string) => {
